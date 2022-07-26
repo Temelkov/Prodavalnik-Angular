@@ -1,0 +1,145 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "created": "2022-04-29T08:41:26.804Z",
+      "lastUpdated": "2022-05-08T21:00:06.929Z",
+      "name": "Real Estate"
+    },
+    {
+      "id": 2,
+      "created": "2022-04-29T08:41:26.804Z",
+      "lastUpdated": "2022-04-28T20:53:24.702Z",
+      "name": "Cars, caravans, boats"
+    },
+    {
+      "name": "Electronics",
+      "created": "2022-04-29T08:41:26.804Z",
+      "lastUpdated": "2022-04-29T08:41:26.804Z",
+      "id": 3
+    },
+    {
+      "name": "Sports, books, hobby",
+      "created": "2022-03-23T06:29:50.922Z",
+      "lastUpdated": "2022-03-23T06:29:50.922Z",
+      "id": 4
+    },
+    {
+      "name": "Home and garden",
+      "created": "2022-03-23T06:36:41.397Z",
+      "lastUpdated": "2022-03-23T06:36:41.397Z",
+      "id": 5
+    },
+    {
+      "name": "Fashion",
+      "created": "2022-03-23T06:37:56.535Z",
+      "lastUpdated": "2022-03-23T06:37:56.535Z",
+      "id": 6
+    },
+    {
+      "name": "Animal",
+      "created": "2022-03-23T06:37:56.535Z",
+      "lastUpdated": "2022-06-11T09:16:12.693Z",
+      "id": 7
+    },
+    {
+      "name": "test",
+      "created": "2022-06-11T09:16:33.989Z",
+      "lastUpdated": "2022-06-11T09:16:33.989Z",
+      "id": 8
+    }
+  ],
+  "advertisements": [
+    {
+      "id": 1,
+      "created": 1615022290129,
+      "lastUpdated": "2022-04-27T21:25:59.380Z",
+      "publishAt": "2022-04-29T08:41:26.804Z",
+      "categoryId": 2,
+      "title": "Caravan Belly three local",
+      "subtitle": "2005 Length 5,40 Equipped with ... Hot and cold water Bathroom and toilet with limbo",
+      "price": 8129.99,
+      "discount": 13,
+      "isDeliveryIncluded": true,
+      "posterImgUrl": "https://frankfurt.apollo.olxcdn.com/v1/files/gibg8juxew5f3-BG/image;s=1000x700"
+    },
+    {
+      "id": 2,
+      "created": 1615022290129,
+      "lastUpdated": "2022-04-27T21:25:59.380Z",
+      "publishAt": "2022-04-29T08:41:26.804Z",
+      "categoryId": 1,
+      "title": "Floor of house 140sq.m, with garage, CBC",
+      "subtitle": "Floor of a house, with an area of ​​140sq.m, consisting of a spacious living room, kitchen, two bedrooms, corridor, bathroom and toilet, separately another toilet, laundry, three terraces, with garage and cellar.",
+      "price": 246434,
+      "discount": 10,
+      "isDeliveryIncluded": false,
+      "posterImgUrl": "https://frankfurt.apollo.olxcdn.com/v1/files/ht2hd7nncwft3-BG/image;s=1000x700"
+    },
+    {
+      "id": 3,
+      "created": 1615022290129,
+      "lastUpdated": "2022-04-27T21:25:59.380Z",
+      "publishAt": "2022-04-29T08:41:26.804Z",
+      "categoryId": 3,
+      "title": "iPhone 11 Pro (64 GB) Space Gray",
+      "subtitle": "Hello everyone. I sell iPhone 11 Pro (64GB) Space Gray as a new one. The kit includes a box and charger, original leather case for the phone, a residual warranty of 9 months.",
+      "price": 925,
+      "discount": 20,
+      "isDeliveryIncluded": true,
+      "posterImgUrl": "https://frankfurt.apollo.olxcdn.com/v1/files/uk1oduvewv1a3-BG/image;s=1000x700"
+    },
+    {
+      "created": "2022-04-29T08:41:26.804Z",
+      "lastUpdated": "2022-04-27T21:25:59.380Z",
+      "publishAt": "2022-04-29T08:41:26.804Z",
+      "categoryId": 4,
+      "title": "German aluminum bicycle wheel 26 Pegasus with extrinated shimano speeds",
+      "subtitle": "The bicycle has no gaps, no crooked !!! Prevention and ready to ride. Please check out my other ads. I send by Econt, the delivery costs about 20lv.",
+      "price": 420,
+      "discount": 11,
+      "isDeliveryIncluded": false,
+      "posterImgUrl": "https://frankfurt.apollo.olxcdn.com/v1/files/kklwyqfua8y12-BG/image;s=1000x700",
+      "id": 4
+    },
+    {
+      "title": "English Cocker Spaniel",
+      "subtitle": "Hello. Little Cokita, expect their new Sessema. The cuts are thoroughbred, very loving, playful. They feed on their own. Decontaminated internally and externally, passports have also been issued. Delivery is possible.",
+      "price": 400,
+      "discount": 0,
+      "posterImgUrl": "https://frankfurt.apollo.olxcdn.com/v1/files/ct96kq7nc2n5-BG/image;s=1000x700",
+      "isDeliveryIncluded": true,
+      "categoryId": 7,
+      "created": "2022-04-29T08:41:26.804Z",
+      "lastUpdated": "2022-04-27T21:25:59.380Z",
+      "publishAt": "2022-04-29T08:41:26.804Z",
+      "id": 5
+    },
+    {
+      "title": "Large Grey Leather Sofa with Electric Relaxing Mechanism",
+      "subtitle": "Large Grey leather sofa with electric relaxing mechanism for the legs of both end seats and with electric backrests. 100 % genuine leather.",
+      "price": 1400,
+      "discount": 0,
+      "posterImgUrl": "https://frankfurt.apollo.olxcdn.com/v1/files/nofo5cbeyyvl3-BG/image;s=1000x700",
+      "isDeliveryIncluded": true,
+      "categoryId": 5,
+      "created": "2022-04-29T08:41:26.804Z",
+      "lastUpdated": "2022-04-27T21:25:59.380Z",
+      "publishAt": "2022-04-29T08:41:26.804Z",
+      "id": 6
+    },
+    {
+      "title": "Nike Air Max 2017 Tea Berry/ Port Wine-Wolf Grey",
+      "subtitle": "The sneakers are in excellent condition. Without visible traces of wearing. Take a look at all the photos to see for yourself. We send them to another box of NEW.",
+      "price": 129,
+      "discount": 0,
+      "posterImgUrl": "https://frankfurt.apollo.olxcdn.com/v1/files/gdyokg1sfy9v1-BG/image;s=1000x700",
+      "isDeliveryIncluded": true,
+      "categoryId": 6,
+      "created": "2022-04-29T08:41:26.804Z",
+      "lastUpdated": "2022-04-27T21:25:59.380Z",
+      "publishAt": "2022-04-29T08:41:26.804Z",
+      "id": 7
+    }
+  ]
+}

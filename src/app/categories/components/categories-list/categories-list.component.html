@@ -1,0 +1,33 @@
+<div class="d-flex justify-content-between mt-2">
+    <h3>Categories</h3>
+    <div>
+        <button (click)="onCreateClick()" class="btn btn-primary">Create Category</button>
+    </div>
+</div>
+<div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Created</th>
+                <th>Last Updated</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let category of categories">
+                <td>{{category.id}}</td>
+                <td>{{category.name}}</td>
+                <td>{{category.created | date}}</td>
+                <td>{{category.lastUpdated | date}}</td>
+                <td>
+                    <button (click)="onEditClick(category)" class="btn btn-sm btn-outline-primary">Edit
+        </button>
+                    <button (click)="onDeleteClick(category)" class="btn btn-sm btn-outline-danger ms-2">Delete
+        </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

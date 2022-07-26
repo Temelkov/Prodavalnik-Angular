@@ -1,0 +1,75 @@
+<form *ngIf="formGroup" [formGroup]="formGroup" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+        <label for="title">Title <span class="text-danger">*</span></label>
+        <input formControlName="title" type="text" class="form-control" id="title" placeholder="Enter title">
+        <ng-container *ngIf="formGroup.get('title')?.invalid && formGroup.get('title')?.touched">
+            <small *ngIf="formGroup.get('title')?.errors?.['required']" class="form-text text-danger">This field is required</small>
+            <small *ngIf="formGroup.get('title')?.errors?.['minlength']" class="form-text text-danger">The minimum length
+        is {{formGroup.get('title')?.errors?.['minlength'].requiredLength}}</small>
+        </ng-container>
+    </div>
+
+    <div class="form-group">
+        <label for="subtitle">Subtitle <span class="text-danger">*</span></label>
+        <input formControlName="subtitle" type="text" class="form-control" id="subtitle" placeholder="Enter subtitle">
+        <ng-container *ngIf="formGroup.get('subtitle')?.invalid && formGroup.get('subtitle')?.touched">
+            <small *ngIf="formGroup.get('subtitle')?.errors?.['required']" class="form-text text-danger">This field is required</small>
+            <small *ngIf="formGroup.get('subtitle')?.errors?.['minlength']" class="form-text text-danger">The minimum length
+        is {{formGroup.get('subtitle')?.errors?.['minlength'].requiredLength}}</small>
+        </ng-container>
+    </div>
+
+    <div class="form-group">
+        <label for="category">Category <span class="text-danger">*</span></label>
+        <select formControlName="categoryId" class="form-control" id="category">
+      <option *ngFor="let category of categories" [value]="category.id">{{category.name}}</option>
+    </select>
+        <ng-container *ngIf="formGroup.get('categoryId')?.invalid && formGroup.get('categoryId')?.touched">
+            <small *ngIf="formGroup.get('categoryId')?.errors?.['required']" class="form-text text-danger">This field is required</small>
+        </ng-container>
+    </div>
+
+    <div class="form-group">
+        <label for="price">Price <span class="text-danger">*</span></label>
+        <input formControlName="price" type="number" class="form-control" id="price" placeholder="Enter price">
+        <ng-container *ngIf="formGroup.get('price')?.invalid && formGroup.get('price')?.touched">
+            <small *ngIf="formGroup.get('price')?.errors?.['required']" class="form-text text-danger">This field is required</small>
+            <small *ngIf="formGroup.get('price')?.errors?.['min']" class="form-text text-danger">The minimum length
+        is {{formGroup.get('price')?.errors?.['min'].min}}</small>
+        </ng-container>
+    </div>
+
+    <div class="form-group">
+        <label for="discount">Discount %</label>
+        <input formControlName="discount" type="number" class="form-control" id="discount" placeholder="Enter discount">
+        <ng-container *ngIf="formGroup.get('discount')?.invalid && formGroup.get('discount')?.touched">
+            <small *ngIf="formGroup.get('discount')?.errors?.['min']" class="form-text text-danger">The minimum length
+        is {{formGroup.get('discount')?.errors?.['min'].min}}</small>
+            <small *ngIf="formGroup.get('discount')?.errors?.['max']" class="form-text text-danger">The maximum length
+        is {{formGroup.get('discount')?.errors?.['max'].max}}</small>
+        </ng-container>
+    </div>
+
+    <div class="form-group">
+        <label for="poster">Poster URL</label>
+        <input formControlName="posterImgUrl" type="text" class="form-control" id="poster" placeholder="Enter poster URL">
+    </div>
+
+    <div class="form-group">
+        <label for="publish-at">Published at <span class="text-danger">*</span></label>
+        <input formControlName="publishAt" type="date" class="form-control" id="publish-at" placeholder="Enter publish date">
+        <ng-container *ngIf="formGroup.get('publishAt')?.invalid && formGroup.get('publishAt')?.touched">
+            <small *ngIf="formGroup.get('publishAt')?.errors?.['required']" class="form-text text-danger">This field is required</small>
+        </ng-container>
+    </div>
+
+    <div class="form-group">
+        <input formControlName="isCertificateIncluded" type="checkbox" class="form-check-input" id="certificate">
+        <label class="form-check-label" for="certificate">Include delivery</label>
+    </div>
+
+    <div class="mt-2">
+        <button type="submit" class="btn btn-primary">Create</button>
+    </div>
+
+</form>
